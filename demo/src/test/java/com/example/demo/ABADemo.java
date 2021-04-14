@@ -31,6 +31,7 @@ public class ABADemo {
 //
 //        Lock lock = new ReentrantLock();
 
+
         BlockingQueue<String> blockingQueue = new ArrayBlockingQueue<String>(3);
         blockingQueue.offer("a");
         blockingQueue.offer("b");
